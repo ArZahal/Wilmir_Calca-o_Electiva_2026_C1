@@ -1,0 +1,1380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "24f6ffb5-92c9-4219-b20e-528bca53f8ad")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Capacitor:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+				(at 0.9652 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CAP-00000"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "1kV"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "100%"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-PowerSymbol:3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3.3V"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3.3V\""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 93.98 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22496edd-31d7-4f38-a487-5d0621f4f899")
+	)
+	(junction
+		(at 93.98 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e593b4c-6849-47c4-bea6-1021b4b469a1")
+	)
+	(junction
+		(at 143.51 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "934fb4e0-0cdf-45aa-adb5-4179504ccee3")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0970f01d-18f9-447b-ad45-e1b498341f9c")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6cb3b7-c6b2-4814-b3ab-78367ebd4274")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25da1888-7eb5-4e81-aa6b-aad6396eafcd")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f8e007-a7fb-4522-9867-a404bb918948")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f573d0c-eb86-4dd2-b366-8e3ad0177884")
+	)
+	(wire
+		(pts
+			(xy 69.85 80.01) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433cee24-0b0c-4520-a13e-d2b1c2e4585e")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cf926c-2641-4e70-9254-e00e6b4e9903")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e240c80-5663-408b-9ed5-250e8aafbce6")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f4a838-ce78-44fc-89b3-d709c49d1c48")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a316d4f6-3069-435a-b119-83383535e871")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a560e8e3-d374-4a82-939f-7c1fc758f3dc")
+	)
+	(wire
+		(pts
+			(xy 143.51 76.2) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cc5d00-8caa-4978-8950-cd8be458546b")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e7ea21-3611-4a08-aceb-30b418f9b617")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ed340e-8520-48af-8729-52bb7b555c27")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 69.85 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a456689e-288c-4ff5-9ee6-3fd2be782234")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 152.4 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8dd575a-6b53-4f9c-80ef-cc53f7ced835")
+	)
+	(hierarchical_label "COM"
+		(shape input)
+		(at 69.85 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be0b71b8-b335-4ffd-8ee9-e4a9cd479a81")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f326a94-e4b2-459f-9373-979ecb3a2210")
+		(property "Reference" "#PWR09"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1efc1dd-1f65-413d-85a2-fa1e5569beb5")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 93.98 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c0deca-0f14-4f04-a177-140ec1846981")
+		(property "Reference" "R14"
+			(at 96.52 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 96.52 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.996 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf20705-7ba5-4b8a-beeb-6ef9674c9532")
+		)
+		(pin "2"
+			(uuid "9fb3da43-e19c-4421-a116-f066a5feecd2")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a373c40-1292-4b4d-9173-227bf36fe13d")
+		(property "Reference" "R13"
+			(at 80.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.6K"
+			(at 80.01 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.756 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b1b48c9-dbc7-42d1-a1c0-f5fb35566b2a")
+		)
+		(pin "2"
+			(uuid "7394f607-0cf2-494e-89a6-04bb5d34f5da")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Capacitor:C")
+		(at 106.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61856022-d57b-4043-b971-f2e84e8cbf9e")
+		(property "Reference" "C7"
+			(at 109.22 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2NF"
+			(at 109.22 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+			(at 107.6452 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 109.22 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 109.22 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c90d221e-4a27-4d83-922d-6b406fbe5886")
+		)
+		(pin "2"
+			(uuid "d96c61fd-9d62-40a2-8952-2867594a0501")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d92da04-73b6-4142-baf3-a2edc2cbdc13")
+		(property "Reference" "R15"
+			(at 146.05 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22K"
+			(at 146.05 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.526 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ad754d-024b-4fc9-95dd-9ace757efa0a")
+		)
+		(pin "2"
+			(uuid "35ac15e5-c24e-40e6-8410-d506e318b62e")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
+		(at 143.51 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f85d99f-64f5-430a-af39-89fabbe99f17")
+		(property "Reference" "#PWR08"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 143.51 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0fcc13e-2f6a-4007-b781-980e9953f580")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Capacitor:C")
+		(at 143.51 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff75199e-3362-4110-9338-4b4df64c4e48")
+		(property "Reference" "C8"
+			(at 146.05 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1NF"
+			(at 146.05 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+			(at 144.4752 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 146.05 91.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 146.05 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fec52c65-1555-4e7b-a01b-7781869b8bc7")
+		)
+		(pin "2"
+			(uuid "707811e2-211b-4e75-9852-21b36f065836")
+		)
+		(instances
+			(project "PLC4UNI NIZAO"
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/a3036c6c-2535-4470-a10e-de9e4fe13627"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/aac8e6b9-9f3f-4dff-9bb3-8df7be17efeb"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/e2d59354-1dd6-4b16-8956-390a5340b60c"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/0130d542-9ffb-407d-845b-5db3f20629b6/5f5223ed-c2e6-4687-9140-f98ef2a2ebe1/ef0099b6-8885-4f19-8d36-d55bbd8d0aaa"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
