@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "334d2310-0151-4772-87ea-d89776b3dbc4")
+	(uuid "e245332a-2f59-4ff1-b23e-5a1163a81547")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Relay:G5V-1"

@@ -685,6 +685,42 @@
     [
       "88ceb2f1-a9a4-46cb-9b49-e8f7105a3f2a",
       "RLY"
+    ],
+    [
+      "f7c98043-7954-4079-b4aa-8cc8671d4bdc",
+      "IN-DI4"
+    ],
+    [
+      "1c023492-cbe8-4239-af02-3dc08e3f6675",
+      "IN-DI5"
+    ],
+    [
+      "7904c289-d7bc-4af2-8d5f-68931d7ecd01",
+      "OUT-0-10V"
+    ],
+    [
+      "20c42385-575b-40dd-aa60-36e7f170b2b4",
+      "OUT-4-20MA"
+    ],
+    [
+      "746badad-4e0a-4c19-a01b-0167f92ec77b",
+      "OUT-NPN"
+    ],
+    [
+      "33773fc3-1e97-4704-a16f-d6197e7ab62b",
+      "OUT-NPN1"
+    ],
+    [
+      "26d6837f-a4ef-4058-840c-5fd4b94b9a9f",
+      "OUT-NPN2"
+    ],
+    [
+      "c8afcd65-0acf-4b9d-909a-a76f836e97b8",
+      "OUT-NPN3"
+    ],
+    [
+      "304e112e-b86a-47e7-8b7b-a629451c55d7",
+      "OUT-PNP"
     ]
   ],
   "text_variables": {}
